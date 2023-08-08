@@ -15,7 +15,7 @@ import io.cucumber.testng.TestNGCucumberRunner;
 @Listeners({ SuiteEvent.class, WebEvent.class })
 
 @CucumberOptions(features = { "src/test/java/com/Playground/feature/" }, glue = { "com/Playground/stepDefinitions",
-		"com/Playground/hooks" }, tags = "@Computer",
+		"com/Playground/hooks" }, tags = "@DemoBlaze",
 
 		plugin = { "pretty","html:target/site/cucumber-pretty/cucumber.html",
 				"json:target/cucumber-reports/cucumber.json" }, 
